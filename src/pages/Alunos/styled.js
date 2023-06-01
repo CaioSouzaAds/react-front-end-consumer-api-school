@@ -15,6 +15,7 @@ export const AlunoContainer = styled.div`
 
 
 `;
+
 export const ProfilePicture = styled.div`
 img {
   width: 36px;
