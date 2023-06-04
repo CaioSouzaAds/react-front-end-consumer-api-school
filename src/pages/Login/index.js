@@ -25,7 +25,6 @@ export default function Login(props) {
     let formErrors = false;
 
     if (!isEmail(email)) {
-      // eslint-disable-next-line no-unused-vars
       formErrors = true;
       toast.error('E-mail inválido. ');
     }
